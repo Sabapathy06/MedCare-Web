@@ -1,0 +1,57 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files / Build directories
+/build/
+/*/build/
+.gradle/
+.kotlin/
+.artifacts/
+/bin/
+/gen/
+/out/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Log & Crash dump files
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Local configuration files
+local.properties
+.env
+.env.local
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Keystores & Secrets
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+google-services.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
