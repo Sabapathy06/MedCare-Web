@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Activity, Pill, Users, ShieldAlert, ScanLine, Settings, LayoutDashboard } from 'lucide-react';
 import Dashboard from './pages/Dashboard';

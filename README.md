@@ -1,32 +1,53 @@
-# React + TypeScript + Vite
+# MedCare Web — Smart Medication & Health Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+MedCare Web is a modern, responsive health companion web application designed to help patients manage daily medications, track dosages, scan prescription labels with AI, connect with caregivers, and trigger emergency SOS assistance.
 
-Currently, two official plugins are available:
+🌐 **Live Website**: [https://sabapathy06.github.io/MedCare-Web/](https://sabapathy06.github.io/MedCare-Web/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📊 **Interactive Dashboard**: Real-time adherence rate, dosage schedule, missed/upcoming alerts, and quick actions.
+- 💊 **Medication Tracker**: Comprehensive medication management with filters (All, Morning, Afternoon, Evening, Night), dosage details, and intake confirmation.
+- 📷 **AI Prescription Scanner**: Upload or capture prescription labels for automatic OCR dosage and schedule extraction.
+- 👥 **Caregiver Network**: Add, manage, and alert emergency contacts, primary physicians, and family members.
+- 🚨 **One-Touch SOS Emergency**: Instant dispatch assistance, emergency hotline dialing, and GPS location sharing.
+- 🎨 **Premium Glassmorphic Design**: Clean, modern dark/frosted-glass theme built with responsive CSS, Lucide icons, and Framer Motion micro-animations.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🛠️ Tech Stack
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- **Framework**: React 19 + TypeScript + Vite
+- **Styling**: Vanilla CSS (Glassmorphism & modern design tokens)
+- **Routing**: React Router (HashRouter for GitHub Pages static compatibility)
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: GitHub Actions / GitHub Pages
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 🚀 Local Development
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sabapathy06/MedCare-Web.git
+   cd MedCare-Web
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the local dev server:**
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:5173/` in your browser.
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
