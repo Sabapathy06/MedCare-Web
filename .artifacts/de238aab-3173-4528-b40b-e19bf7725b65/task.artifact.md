@@ -1,0 +1,17 @@
+- [x] `[x]` Authentication & Persistence Fallback
+    - [x] `[x]` Add local registration fallback in `MedCareRepository.kt`
+    - [x] `[x]` Add local login fallback in `MedCareRepository.kt`
+- [x] `[x]` UI/UX Scrolling & Layout Fixes
+    - [x] `[x]` Fix scrolling in `RegisterScreen.kt`
+    - [x] `[x]` Fix scrolling in `LoginScreen.kt`
+    - [x] `[x]` Verify/Fix scrolling in `MedicineDetailsScreen.kt` (Applied to multiple screens)
+- [x] `[x]` OCR & Medicine Management Refinement
+    - [x] `[x]` Refine OCR parsing logic in `MedicineScannerService.kt`
+    - [x] `[x]` Improve date detection for MFG/EXP labels
+- [ ] `[/]` Full Regression Test on Samsung SM-E156B
+    - [ ] `[/]` Account Creation
+    - [ ] `[ ]` Login/Logout
+    - [ ] `[ ]` OCR Medicine Scan
+    - [ ] `[ ]` Expiry Validation
+    - [ ] `[ ]` Medication Scheduling
+    - [ ] `[ ]` Notifications & Adherence

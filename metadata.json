@@ -1,6 +1,0 @@
-{
-  "name": "MedCare",
-  "description": "Intelligent Medication Reminder & Medication Management System with dose tracking, adherence analytics, stock alerts, caregiver integration, SOS workflow, and Gemini AI assistance.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
