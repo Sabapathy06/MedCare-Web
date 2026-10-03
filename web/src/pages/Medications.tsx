@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Pill, Plus, Search, Filter, AlertTriangle } from 'lucide-react';
+import { Pill, Plus, Filter, AlertTriangle } from 'lucide-react';
 
 const Medications = () => {
   const container = {

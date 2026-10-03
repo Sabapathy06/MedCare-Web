@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ScanLine, Check, Camera, Upload, ShieldCheck } from 'lucide-react';
+import { ScanLine, Camera, Upload, ShieldCheck } from 'lucide-react';
 
 const Scanner = () => {
   const container = {

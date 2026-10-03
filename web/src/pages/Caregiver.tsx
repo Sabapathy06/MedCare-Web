@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Users, UserPlus, Mail, Phone, Heart } from 'lucide-react';
+import { UserPlus, Mail, Phone, Heart } from 'lucide-react';
 
 const Caregiver = () => {
   const container = {

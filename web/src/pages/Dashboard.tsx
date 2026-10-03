@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Pill, Activity, CalendarClock, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Pill, Activity, CalendarClock, CheckCircle2 } from 'lucide-react';
 
 const Dashboard = () => {
   const container = {
